@@ -9,8 +9,11 @@ function Aboutme () {
     };
     return (
         <>
+
         <div className="hero" style={divStyle}>
         <MainHeader/>
+
+        
        
     </div>
     </>

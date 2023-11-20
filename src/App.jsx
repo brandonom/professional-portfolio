@@ -8,23 +8,27 @@ import Aboutme from './components/Aboutme'
 
 
 function App() {
- 
+
 
   return (
     <>
-    
 
-      <Aboutme/>
+      <MainHeader />
+      <Aboutme />
 
-      <h1>My Projects</h1>
-      <Musik/>
+      <h1>About Me</h1>
+      <h2>Brandon Myers</h2>
       
-      <Foodfinder/>
-      
+      <h3>I am webdesigner and developer whos passion is making striking and unique websites</h3>
+      <h1>My Work</h1>
+      <Musik />
 
-      <Contact/>
-       
-      
+      <Foodfinder />
+
+
+      <Contact />
+
+
     </>
   )
 }
