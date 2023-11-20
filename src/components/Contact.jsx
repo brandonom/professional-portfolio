@@ -4,7 +4,7 @@ import '../styles/contact.scss';
 function Contact() {
   return (
     <div className="contact-container">
-      <h1>Contact Me!</h1>
+      <h1>Contact</h1>
       <form>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
