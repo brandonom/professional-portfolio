@@ -5,12 +5,12 @@ import React from 'react';
 
 function MainHeader(propsObj) {
       return (
-        <header className="fixed-top d-flex justify-content-between">
+        <header id="header" className="fixed-top d-flex justify-content-between">
         <nav>
-          <a href='#'>Home</a>
-          <a href='#'>About Me</a>
-          <a href='#'>Contact Me</a>
-          <a href='#'>Projects</a>
+          <a href='#header'>Home</a>
+          <a href='#aboutme'>About Me</a>
+          <a href='#contact'>Contact Me</a>
+          <a href='#projects'>Projects</a>
           <a href="https://github.com/brandonom">
             <img src={Githublogo} className="img-fluid" alt="github logo" />
           </a>

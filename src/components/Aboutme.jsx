@@ -10,7 +10,7 @@ function Aboutme () {
     return (
         <>
 
-        <div className="hero" style={divStyle}>
+        <div id="#Aboutme" className="hero" style={divStyle}>
         <MainHeader/>
 
         

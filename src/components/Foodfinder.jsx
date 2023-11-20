@@ -8,7 +8,7 @@ function Foodfinder() {
                 <div className='content-container'>
                 <p>A food repository that doubles as a search engine for both food and their corresponding recipes </p>
                 <a href="https://sharktank3800.github.io/recipe_finder/">
-                    <img src={foodFinder} class="img-fluid" alt="FoodFinder"/>
+                    <img src={foodFinder} className="img-fluid" alt="FoodFinder"/>
                 </a>
                 </div>
 
