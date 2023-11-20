@@ -1,0 +1,46 @@
+
+
+.hero {
+    position: relative;
+    justify-content: center;
+    height: 600px ;
+    background-size: cover;
+    width:100%;
+    align-items: center;
+    background-position:bottom 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 12.5%; /* Adjust this value to position the border properly */
+        width: 75%; /* Set the width of the border */
+        // border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+        // border-color: black;
+        
+        
+    }
+
+  
+
+    
+    
+    div{
+        padding-top: 50px;
+        
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: 28282B ;
+    }
+
+    h2{
+        color: 28282B ;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+  }
