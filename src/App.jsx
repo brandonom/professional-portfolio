@@ -19,7 +19,7 @@ function App() {
       <h1>About Me</h1>
       <h2>Brandon Myers</h2>
       
-      <h3>I am webdesigner and developer whos passion is making striking and unique websites</h3>
+      <h3>I am webdesigner and developer whose passion is making striking and unique websites</h3>
       <h1 id="#Projects">My Work</h1>
       <Musik />
 
