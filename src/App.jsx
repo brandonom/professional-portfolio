@@ -5,6 +5,7 @@ import MainHeader from './components/Header'
 import Musik from './components/Musik'
 import Contact from './components/Contact'
 import Aboutme from './components/Aboutme'
+import UrbanVogue from './components/UrbanVogue';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
       <Foodfinder />
 
+      <UrbanVogue/>
 
       <Contact />
 
