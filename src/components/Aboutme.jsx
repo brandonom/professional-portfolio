@@ -5,11 +5,11 @@ import MainHeader from './Header';
 
 function Aboutme () {
     const divStyle = {
-        backgroundImage: `url(${heroBackground})`, // Ensure the image path is used as a URL
+        backgroundImage: `url(${heroBackground})`, 
     };
     return (
         <>
-
+        
         <div id="#Aboutme" className="hero" style={divStyle}>
         <MainHeader/>
 
